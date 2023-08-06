@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    
+    
+}
+
+.relog{
+    font-family: 'Tektur', cursive;
+    color:rgb(2, 177, 177);
+    font-size: 7rem;
+    border: 2px solid rgb(2, 177, 177);
+    box-shadow: 0px 0px 2px rgb(2, 177, 177),
+    0px 0px 3px rgb(3, 197, 197),
+    0px 0px 5px rgb(3, 228, 228) ;
+    border-radius: 15px;
+    width: 35rem;
+    margin: 150px auto;
+    padding: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .relog{
+        border-radius: 100%;
+        padding: 0px;
+        height: 15rem;
+        width: 15rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.2rem;
+        margin: 150px auto;
+        box-shadow: 0px 0px 2px rgb(2, 177, 177),
+        0px 0px 5px rgb(3, 197, 197),
+        0px 0px 10px rgb(3, 228, 228) 
+    }
+    
+}
